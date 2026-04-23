@@ -18,13 +18,12 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2024.14.4.221",
   },
   "name":"Yeniproje",
   "resources":[
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
     {"id":{"name":"Spr_Player","path":"sprites/Spr_Player/Spr_Player.yy",},},
   ],
   "resourceType":"GMProject",
