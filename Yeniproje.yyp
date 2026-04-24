@@ -23,6 +23,7 @@
   },
   "name":"Yeniproje",
   "resources":[
+    {"id":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_door_1","path":"sprites/spr_door_1/spr_door_1.yy",},},

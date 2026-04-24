@@ -1,6 +1,17 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7AC240A2
-/// @DnDArgument : "expr" ""down""
-/// @DnDArgument : "var" "last_dir"
-last_dir = "down";
+/// @DnDInput : 5
+/// @DnDArgument : "expr" "4"
+/// @DnDArgument : "expr_1" "0.5"
+/// @DnDArgument : "expr_4" "-10"
+/// @DnDArgument : "var" "spd"
+/// @DnDArgument : "var_1" "grv"
+/// @DnDArgument : "var_2" "vsp"
+/// @DnDArgument : "var_3" "hsp"
+/// @DnDArgument : "var_4" "jumpspd"
+spd = 4;
+grv = 0.5;
+vsp = 0;
+hsp = 0;
+jumpspd = -10;
