@@ -2,13 +2,13 @@
 /// @DnDVersion : 1
 /// @DnDHash : 727FF434
 /// @DnDInput : 3
-/// @DnDArgument : "expr" "(keyboard_check(vk_right) - keyboard_check(vk_left)) * spd"
+/// @DnDArgument : "expr" "(keyboard_check(ord("D")) - keyboard_check(ord("A"))) * spd"
 /// @DnDArgument : "expr_1" "vsp+grv"
 /// @DnDArgument : "expr_2" "place_meeting(x, y+1, obj_platform)"
 /// @DnDArgument : "var" "hsp"
 /// @DnDArgument : "var_1" "vsp"
 /// @DnDArgument : "var_2" "ground"
-hsp = (keyboard_check(vk_right) - keyboard_check(vk_left)) * spd;
+hsp = (keyboard_check(ord("D")) - keyboard_check(ord("A"))) * spd;
 vsp = vsp+grv;
 ground = place_meeting(x, y+1, obj_platform);
 
