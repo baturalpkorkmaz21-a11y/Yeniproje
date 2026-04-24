@@ -22,6 +22,7 @@
   "height":128,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"b1d02ea5-e85a-492a-9263-a85070ab1a14","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"b1d02ea5-e85a-492a-9263-a85070ab1a14","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"0a740820-a7b7-462b-816f-d0c5db419dba","blendMode":0,"displayName":"default","isLocked":false,"name":"0a740820-a7b7-462b-816f-d0c5db419dba","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Spr_Enemy",
@@ -62,7 +63,7 @@
     },
     "name":"Spr_Enemy",
     "playback":1,
-    "playbackSpeed":2.0,
+    "playbackSpeed":3.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
