@@ -25,9 +25,10 @@
   "resources":[
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_door_1","path":"sprites/spr_door_1/spr_door_1.yy",},},
     {"id":{"name":"Spr_Enemy_Left","path":"sprites/Spr_Enemy_Left/Spr_Enemy_Left.yy",},},
     {"id":{"name":"Spr_Enemy_Right","path":"sprites/Spr_Enemy_Right/Spr_Enemy_Right.yy",},},
-    {"id":{"name":"spr_platform","path":"sprites/spr_platform/spr_platform.yy",},},
+    {"id":{"name":"spr_platform_1","path":"sprites/spr_platform_1/spr_platform_1.yy",},},
     {"id":{"name":"Spr_Player","path":"sprites/Spr_Player/Spr_Player.yy",},},
   ],
   "resourceType":"GMProject",
