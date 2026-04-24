@@ -1,0 +1,11 @@
+speed = 0;
+walk_spd = 2;
+move_dir = 1;
+move_timer = 0;
+shoot_timer = 0;
+shoot_delay = 120;
+can_see_player = 0;
+sight_range = 400;
+vsp = 0;
+grv = 0.5;
+jump_buffer = 0;
