@@ -4,7 +4,7 @@
 /// @DnDInput : 5
 /// @DnDArgument : "expr" "6"
 /// @DnDArgument : "expr_1" "0.5"
-/// @DnDArgument : "expr_4" "-10"
+/// @DnDArgument : "expr_4" "-12"
 /// @DnDArgument : "var" "spd"
 /// @DnDArgument : "var_1" "grv"
 /// @DnDArgument : "var_2" "vsp"
@@ -14,4 +14,4 @@ spd = 6;
 grv = 0.5;
 vsp = 0;
 hsp = 0;
-jumpspd = -10;
+jumpspd = -12;
