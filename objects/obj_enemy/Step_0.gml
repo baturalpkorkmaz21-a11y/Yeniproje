@@ -35,9 +35,17 @@ if (can_see_player == 0 || height_diff > 64) {
     }
     x += walk_spd * move_dir;
 }
+if (can_see_player == 1 && height_diff <= 64 && player_exists) {
+    move_dir = (obj_player.x < x) ? -1 : 1;
+}
 
-// Görüyorsa ateş et
-if (can_see_player == 1 && height_diff <= 64) {
+// Sprite yönü (sadece yürüdüğü yöne bakar)
+image_xscale = move_dir;
+
+// Görüyorsa ve aynı hizadaysa ve yüzü dönükse ateş et
+var facing_player = (player_exists && ((obj_player.x < x && image_xscale == -1) || (obj_player.x >= x && image_xscale == 1)));
+
+if (can_see_player == 1 && height_diff <= 64 && facing_player) {
     shoot_timer++;
     if (shoot_timer >= shoot_delay) {
         shoot_timer = 0;
@@ -47,14 +55,7 @@ if (can_see_player == 1 && height_diff <= 64) {
         laser.hsp = (obj_player.x < x) ? -5 : 5;
     }
 } else {
-    shoot_timer = 80;
-}
-
-// Sprite yönü
-if (can_see_player == 0 || height_diff > 32) {
-    image_xscale = move_dir;
-} else {
-    image_xscale = (obj_player.x < x) ? -1 : 1;
+    shoot_timer = 60;
 }
 
 // Oyuncuya değince hasar ver
