@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_player",
+  "%Name":"Spr_Player",
   "bboxMode":0,
   "bbox_bottom":118,
   "bbox_left":30,
@@ -27,7 +27,7 @@
     {"$GMImageLayer":"","%Name":"b82e5e2e-ae7e-4080-879a-66c73585a6b9","blendMode":0,"displayName":"Layer 6","isLocked":false,"name":"b82e5e2e-ae7e-4080-879a-66c73585a6b9","opacity":80.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"2ef6b801-6c86-4684-93f4-77e9ed54c2c1","blendMode":0,"displayName":"Layer 3","isLocked":false,"name":"2ef6b801-6c86-4684-93f4-77e9ed54c2c1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_player",
+  "name":"Spr_Player",
   "nineSlice":{
     "$GMNineSliceData":"",
     "bottom":0,
@@ -58,7 +58,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_player",
+    "%Name":"Spr_Player",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -82,7 +82,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_player",
+    "name":"Spr_Player",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -94,7 +94,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5501e7b3-34d9-4583-9fec-1d6a6848df46","path":"sprites/spr_player/spr_player.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5501e7b3-34d9-4583-9fec-1d6a6848df46","path":"sprites/Spr_Player/Spr_Player.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"f3f159b7-e69b-4f67-b4e8-b987af8a7154","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"72843c38-c0ef-43d9-b2ce-c9f1520ad25a","path":"sprites/Spr_Player/Spr_Player.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
