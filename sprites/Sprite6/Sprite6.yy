@@ -2,17 +2,10 @@
   "$GMSprite":"v2",
   "%Name":"Sprite6",
   "bboxMode":0,
-<<<<<<< HEAD
   "bbox_bottom":0,
   "bbox_left":0,
   "bbox_right":0,
   "bbox_top":0,
-=======
-  "bbox_bottom":121,
-  "bbox_left":23,
-  "bbox_right":120,
-  "bbox_top":14,
->>>>>>> parent of a1e87e5 (Merge branch 'main' of https://github.com/baturalpkorkmaz21-a11y/Yeniproje)
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -26,16 +19,7 @@
   "height":64,
   "HTile":false,
   "layers":[
-<<<<<<< HEAD
     {"$GMImageLayer":"","%Name":"42c1144a-34c8-4554-a153-e49f59a03362","blendMode":0,"displayName":"default","isLocked":false,"name":"42c1144a-34c8-4554-a153-e49f59a03362","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-=======
-    {"$GMImageLayer":"","%Name":"1c9fdacb-e80a-4786-b8ca-65514b1e1e3f","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"1c9fdacb-e80a-4786-b8ca-65514b1e1e3f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"947fc0d8-c8f2-4192-83ec-28d352502c7f","blendMode":0,"displayName":"photo","isLocked":false,"name":"947fc0d8-c8f2-4192-83ec-28d352502c7f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"50adf2cf-8305-4903-b3b2-6737138bf63b","blendMode":0,"displayName":"default","isLocked":false,"name":"50adf2cf-8305-4903-b3b2-6737138bf63b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"058436c0-dce2-421d-a616-d5dd2475500c","blendMode":0,"displayName":"default","isLocked":false,"name":"058436c0-dce2-421d-a616-d5dd2475500c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"c534dce7-23d1-4408-9a75-273f4014a653","blendMode":0,"displayName":"default","isLocked":false,"name":"c534dce7-23d1-4408-9a75-273f4014a653","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"2ef6b801-6c86-4684-93f4-77e9ed54c2c1","blendMode":0,"displayName":"default","isLocked":false,"name":"2ef6b801-6c86-4684-93f4-77e9ed54c2c1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
->>>>>>> parent of a1e87e5 (Merge branch 'main' of https://github.com/baturalpkorkmaz21-a11y/Yeniproje)
   ],
   "name":"Sprite6",
   "nineSlice":null,
