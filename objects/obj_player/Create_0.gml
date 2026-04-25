@@ -29,3 +29,11 @@ invincible = 0;
 inv_timer = 0;
 hp = 5;
 knockback = 0;
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 4C57E7BA
+/// @DnDArgument : "code" "//kamera$(13_10)camera_set_view_target(view_camera[0], id);$(13_10)camera_set_view_speed(view_camera[0], 5, 5);"
+//kamera
+camera_set_view_target(view_camera[0], id);
+camera_set_view_speed(view_camera[0], 5, 5);
