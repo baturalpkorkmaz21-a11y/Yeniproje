@@ -1,5 +1,5 @@
 if (invincible == 0) {
-    hp -= 1;
+    hp -= 5;
     invincible = 1;
     inv_timer = 0;
     knockback = 20;

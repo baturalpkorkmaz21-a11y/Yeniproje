@@ -2,7 +2,7 @@ x += hsp;
 
 if (place_meeting(x, y, obj_player)) {
     if (obj_player.invincible == 0) {
-        obj_player.hp--;
+        obj_player.hp-= 10;
         obj_player.invincible = 1;
         if (obj_player.hp <= 0) {
             room_goto(rm_gameover);
