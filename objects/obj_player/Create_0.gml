@@ -1,6 +1,6 @@
 hsp = 0;
 vsp = 0;
-spd = 6;
+spd = 4.6;
 grv = 0.5;
 jumpspd = -13;
 jump_buffer = 0;
@@ -13,3 +13,4 @@ attack_range = 60;
 attack_damage = 25;
 attacking = 0;
 attack_timer = 0;
+is_shooting = 0;
