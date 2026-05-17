@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Yeniproje",
-    "path":"Yeniproje.yyp",
+    "name":"room sprites",
+    "path":"folders/room sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
