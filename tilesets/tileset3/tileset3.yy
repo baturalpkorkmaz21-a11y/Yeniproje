@@ -1,14 +1,14 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"tileset2",
+  "%Name":"tileset3",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"tileset2",
-  "out_columns":3,
+  "name":"tileset3",
+  "out_columns":0,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"sprite19",
-    "path":"sprites/sprite19/sprite19.yy",
+    "name":"sprite20",
+    "path":"sprites/sprite20/sprite20.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
