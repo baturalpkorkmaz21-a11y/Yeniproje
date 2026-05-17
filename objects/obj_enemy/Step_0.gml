@@ -1,3 +1,16 @@
+// Hitstop
+if (global.hitstop > 0) {
+    exit;
+}
+
+if (hit_flash > 0) hit_flash--;
+
+if (knockback_hsp != 0) {
+    knockback_hsp = lerp(knockback_hsp, 0, 0.2);
+    if (abs(knockback_hsp) < 0.5) knockback_hsp = 0;
+    x += knockback_hsp;
+}
+
 // Yerçekimi
 vsp += grv;
 if (place_meeting(x, y + vsp, obj_platform)) {

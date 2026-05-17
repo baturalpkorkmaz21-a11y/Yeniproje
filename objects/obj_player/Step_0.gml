@@ -1,3 +1,9 @@
+if (global.hitstop > 0) {
+    global.hitstop--;
+    exit;
+}
+
+//baş
 if (!variable_instance_exists(id, "attack_timer")) {
     attack_timer = 0;
     attacking = 0;
@@ -54,13 +60,17 @@ if (invincible == 1) {
 }
 
 // vuruş
+
 if (keyboard_check_pressed(ord("O")) && attack_timer == 0) {
-    attack_timer = 100;
-    var effect = instance_create_layer(x + 30 * image_xscale, y, "Instances", obj_attack_effect);
+    attack_timer = 50;
+    var effect = instance_create_layer(x + 30 * image_xscale, y, "Effects", obj_attack_effect);
     effect.image_xscale = image_xscale;
     var enemy = instance_place(x + attack_range * image_xscale, y, obj_enemy);
     if (enemy != noone) {
         enemy.hp -= attack_damage;
+        enemy.knockback_hsp = 5 * image_xscale;
+        enemy.hit_flash = 8;
+        global.hitstop = 7;
         if (enemy.hp <= 0) {
             instance_destroy(enemy);
         }
