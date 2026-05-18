@@ -11,4 +11,5 @@ inv_timer = 0;
 knockback = 0;
 attack_timer = 0;
 is_shooting = 0;
+knockback_hsp = 0;
 global.hitstop = 0;

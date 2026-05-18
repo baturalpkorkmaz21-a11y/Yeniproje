@@ -42,17 +42,29 @@ if (place_meeting(x+hsp, y, obj_platform)) {
     hsp = 0;
 }
 
+//knockback
+if (knockback == 1) {
+    hsp = lerp(hsp, knockback_hsp, 0.3); // anında değil, yumuşakça geçiş
+    knockback_hsp *= 0.8;
+    if (abs(knockback_hsp) < 0.5) {
+        knockback_hsp = 0;
+        knockback = 0;
+    }
+}
+
 x += hsp;
 y += vsp;
 
+//hasar aldıktan sonra koruma
 if (invincible == 1) {
     inv_timer++;
-    if (inv_timer >= 60) {
+    if (inv_timer >= 70) {
         invincible = 0;
         inv_timer = 0;
     }
 }
 
+//lazer atma
 var on_ground = place_meeting(x, y+1, obj_platform);
 
 if (keyboard_check_pressed(ord("O")) && attack_timer == 0 && on_ground) {

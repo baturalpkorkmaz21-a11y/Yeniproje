@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_laser_player",
-    "path":"sprites/spr_laser_player/spr_laser_player.yy",
+    "name":"spr_laser",
+    "path":"sprites/spr_laser/spr_laser.yy",
   },
   "spriteMaskId":null,
   "visible":true,
