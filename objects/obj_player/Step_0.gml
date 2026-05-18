@@ -3,16 +3,10 @@ if (global.hitstop > 0) {
     exit;
 }
 
-//baş
-if (!variable_instance_exists(id, "attack_timer")) {
-    attack_timer = 0;
-    attacking = 0;
-}
-
-if (knockback == 0) {
+if (knockback == 0 && is_shooting == 0) {
     hsp = (keyboard_check(ord("D")) - keyboard_check(ord("A"))) * spd;
-} else {
-    knockback--;
+} else if (knockback == 0) {
+    hsp = 0;
 }
 
 vsp += grv;
@@ -29,7 +23,7 @@ if (jump_buffer > 0) {
 }
 
 if (hsp != 0) {
-    sprite_index = spr_player_walk;
+    sprite_index = spr_player_walking;
 } else {
     sprite_index = spr_player_idle;
 }
@@ -59,26 +53,21 @@ if (invincible == 1) {
     }
 }
 
-// vuruş
+var on_ground = place_meeting(x, y+1, obj_platform);
 
-if (keyboard_check_pressed(ord("O")) && attack_timer == 0) {
-    attack_timer = 50;
-    var effect = instance_create_layer(x + 30 * image_xscale, y, "Effects", obj_attack_effect);
-    effect.image_xscale = image_xscale;
-    var enemy = instance_place(x + attack_range * image_xscale, y, obj_enemy);
-    if (enemy != noone) {
-        enemy.hp -= attack_damage;
-        enemy.knockback_hsp = 5 * image_xscale;
-        enemy.hit_flash = 8;
-        global.hitstop = 7;
-        if (enemy.hp <= 0) {
-            instance_destroy(enemy);
-        }
-    }
+if (keyboard_check_pressed(ord("O")) && attack_timer == 0 && on_ground) {
+    attack_timer = 80;
+    is_shooting = 1;
+    var laser = instance_create_layer(x, y, "Instances", obj_laser_player);
+    laser.hsp = (image_xscale == -1) ? -10 : 10;
 }
 
 if (attack_timer > 0) {
     attack_timer--;
+}
+
+if (is_shooting == 1 && attack_timer <= 66) {
+    is_shooting = 0;
 }
 
 // kamera

@@ -1,17 +1,11 @@
-// Hitstop
 if (global.hitstop > 0) {
     exit;
 }
 
-if (hit_flash > 0) hit_flash--;
+if (hit_flash > 0) {
+    hit_flash--;
+} 
 
-if (knockback_hsp != 0) {
-    knockback_hsp = lerp(knockback_hsp, 0, 0.2);
-    if (abs(knockback_hsp) < 0.5) knockback_hsp = 0;
-    x += knockback_hsp;
-}
-
-// Yerçekimi
 vsp += grv;
 if (place_meeting(x, y + vsp, obj_platform)) {
     while (!place_meeting(x, y + sign(vsp), obj_platform)) {
@@ -21,7 +15,6 @@ if (place_meeting(x, y + vsp, obj_platform)) {
 }
 y += vsp;
 
-// Oyuncu var mı kontrol et
 var player_exists = instance_exists(obj_player);
 if (player_exists) {
     var dist = point_distance(x, y, obj_player.x, obj_player.y);
@@ -30,9 +23,8 @@ if (player_exists) {
     can_see_player = 0;
 }
 
-// Dolaşma
 var height_diff = player_exists ? abs(obj_player.y - y) : 999;
-if (can_see_player == 0 || height_diff > 80) {
+if (can_see_player == 0 || height_diff > 64) {
     move_timer++;
     if (move_timer >= move_change) {
         move_timer = 0;
@@ -48,16 +40,14 @@ if (can_see_player == 0 || height_diff > 80) {
     }
     x += walk_spd * move_dir;
 } else {
-    // Oyuncuyu görünce dur, sadece yüzünü döndür
     move_dir = (obj_player.x < x) ? -1 : 1;
 }
 
-// Sprite yönü
 image_xscale = move_dir;
 
-//ateş etme
 var facing_player = player_exists && ((obj_player.x < x && image_xscale == -1) || (obj_player.x >= x && image_xscale == 1));
-if (can_see_player == 1 && height_diff <= 80 && facing_player) {
+
+if (can_see_player == 1 && height_diff <= 64 && facing_player) {
     shoot_timer++;
     if (shoot_timer >= shoot_delay) {
         shoot_timer = 0;
@@ -67,7 +57,21 @@ if (can_see_player == 1 && height_diff <= 80 && facing_player) {
         laser.hsp = (obj_player.x < x) ? -5 : 5;
     }
 } else {
-    shoot_timer = 80;
+    shoot_timer = 50;
 }
 
-// Oyuncuya değince hasar ver
+if (place_meeting(x, y, obj_player)) {
+    if (obj_player.invincible == 0) {
+        obj_player.hp--;
+        obj_player.invincible = 1;
+        if (obj_player.hp <= 0) {
+            room_goto(rm_gameover);
+        }
+    }
+}
+
+if (knockback_hsp != 0) {
+    knockback_hsp = lerp(knockback_hsp, 0, 0.2);
+    if (abs(knockback_hsp) < 0.5) knockback_hsp = 0;
+    x += knockback_hsp;
+}
