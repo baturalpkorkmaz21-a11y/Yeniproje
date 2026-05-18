@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_walk",
-    "path":"sprites/spr_player_walk/spr_player_walk.yy",
+    "name":"spr_enemy_right",
+    "path":"sprites/spr_enemy_right/spr_enemy_right.yy",
   },
   "spriteMaskId":null,
   "visible":true,
