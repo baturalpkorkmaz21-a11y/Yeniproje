@@ -5,6 +5,6 @@ if (keyboard_check_pressed(vk_anykey) && fading == 0) {
 if (fading == 1) {
     fade += 5;
     if (fade >= 255) {
-        room_goto(room_example2);
+        room_goto(rm_game);
     }
 }
