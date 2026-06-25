@@ -92,6 +92,7 @@
     {"id":{"name":"sh_lighten","path":"shaders/sh_lighten/sh_lighten.yy",},},
     {"id":{"name":"BATUR_CIZIM","path":"sprites/BATUR_CIZIM/BATUR_CIZIM.yy",},},
     {"id":{"name":"spr_attack_effect","path":"sprites/spr_attack_effect/spr_attack_effect.yy",},},
+    {"id":{"name":"spr_boss_taslak","path":"sprites/spr_boss_taslak/spr_boss_taslak.yy",},},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"spr_enemy_left","path":"sprites/spr_enemy_left/spr_enemy_left.yy",},},
     {"id":{"name":"spr_enemy_right","path":"sprites/spr_enemy_right/spr_enemy_right.yy",},},
