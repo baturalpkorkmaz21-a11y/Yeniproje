@@ -37,7 +37,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2024.14.4.221",
   },
   "name":"Yeniproje",
   "resources":[
@@ -61,6 +61,7 @@
     {"id":{"name":"obj_uls_light_renderer","path":"objects/obj_uls_light_renderer/obj_uls_light_renderer.yy",},},
     {"id":{"name":"obj_uls_light","path":"objects/obj_uls_light/obj_uls_light.yy",},},
     {"id":{"name":"obj_uls_shadow_renderer","path":"objects/obj_uls_shadow_renderer/obj_uls_shadow_renderer.yy",},},
+    {"id":{"name":"obj_zemin","path":"objects/obj_zemin/obj_zemin.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
@@ -113,6 +114,9 @@
     {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},},
     {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},},
     {"id":{"name":"Sprite9","path":"sprites/Sprite9/Sprite9.yy",},},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
+    {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},},
+    {"id":{"name":"zemin","path":"tilesets/zemin/zemin.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
