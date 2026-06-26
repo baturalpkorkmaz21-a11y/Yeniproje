@@ -6,8 +6,8 @@
   "name":"obj_zemin",
   "overriddenProperties":[],
   "parent":{
-    "name":"rooms",
-    "path":"folders/rooms.yy",
+    "name":"objects",
+    "path":"folders/objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

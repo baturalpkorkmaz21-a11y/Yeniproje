@@ -32,6 +32,7 @@ if (jump_buffer > 0) {
 }
 
 var on_ground = place_meeting(x, y+1, obj_platform);
+var on_ground = place_meeting(x, y+1, obj_zemin);
 
 if (on_ground && jump_buffer > 0) {
     vsp = jumpspd;
@@ -44,9 +45,21 @@ if (place_meeting(x, y+vsp, obj_platform)) {
     }
     vsp = 0;
 }
+if (place_meeting(x, y+vsp, obj_zemin)) {
+    while (!place_meeting(x, y+sign(vsp), obj_zemin)) {
+        y += sign(vsp);
+    }
+    vsp = 0;
+}
 
 if (place_meeting(x+hsp, y, obj_platform)) {
     while (!place_meeting(x+sign(hsp), y, obj_platform)) {
+        x += sign(hsp);
+    }
+    hsp = 0;
+}
+if (place_meeting(x+hsp, y, obj_zemin)) {
+    while (!place_meeting(x+sign(hsp), y, obj_zemin)) {
         x += sign(hsp);
     }
     hsp = 0;
