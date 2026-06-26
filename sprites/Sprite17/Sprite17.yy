@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"room sprites",
-    "path":"folders/room sprites.yy",
+    "name":"rooms",
+    "path":"folders/rooms.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
