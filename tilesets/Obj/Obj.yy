@@ -1,25 +1,25 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"zemin",
+  "%Name":"Obj",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"zemin",
+  "name":"Obj",
   "out_columns":64,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Yeniproje",
-    "path":"Yeniproje.yyp",
+    "name":"objects",
+    "path":"folders/objects.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Sprite9",
-    "path":"sprites/Sprite9/Sprite9.yy",
+    "name":"spr_Zemin",
+    "path":"sprites/spr_Zemin/spr_Zemin.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_zemin",
+  "%Name":"Object19",
   "eventList":[],
   "managed":true,
-  "name":"obj_zemin",
+  "name":"Object19",
   "overriddenProperties":[],
   "parent":{
     "name":"objects",
@@ -26,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"spr_Zemin",
-    "path":"sprites/spr_Zemin/spr_Zemin.yy",
+    "name":"Sprite24",
+    "path":"sprites/Sprite24/Sprite24.yy",
   },
   "spriteMaskId":null,
   "visible":true,

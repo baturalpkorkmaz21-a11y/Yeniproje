@@ -1,11 +1,11 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Sprite9",
+  "%Name":"spr_Zemin_corner",
   "bboxMode":0,
   "bbox_bottom":767,
   "bbox_left":0,
-  "bbox_right":1343,
-  "bbox_top":592,
+  "bbox_right":239,
+  "bbox_top":609,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -25,7 +25,7 @@
     {"$GMImageLayer":"","%Name":"ce77ad56-013a-424b-8473-cee502b53f4e","blendMode":0,"displayName":"Layer 4","isLocked":false,"name":"ce77ad56-013a-424b-8473-cee502b53f4e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"7fedbd3b-e228-497a-a8df-1afcef7d5ea6","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"7fedbd3b-e228-497a-a8df-1afcef7d5ea6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Sprite9",
+  "name":"spr_Zemin_corner",
   "nineSlice":{
     "$GMNineSliceData":"",
     "bottom":0,
@@ -48,15 +48,15 @@
   },
   "origin":0,
   "parent":{
-    "name":"rooms",
-    "path":"folders/rooms.yy",
+    "name":"room sprites",
+    "path":"folders/room sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Sprite9",
+    "%Name":"spr_Zemin_corner",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -80,7 +80,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Sprite9",
+    "name":"spr_Zemin_corner",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -92,7 +92,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"121d57ac-ba3b-450a-9a06-fcff1f31156a","path":"sprites/Sprite9/Sprite9.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"121d57ac-ba3b-450a-9a06-fcff1f31156a","path":"sprites/spr_Zemin_corner/spr_Zemin_corner.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"988e8186-e137-49dc-996b-71e47be77403","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
@@ -109,5 +109,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1366,
+  "width":1365,
 }
